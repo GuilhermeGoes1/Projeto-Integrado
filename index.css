@@ -5,6 +5,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+    background-color: #E9F2F1;
+}
+
 nav {
     background-color: #559CDA;
     height: 4.65vw;
@@ -66,8 +70,8 @@ a {
 }
 
 main {
-    height: 95vh;
-    background-color: #E9F2F1;
+    height: 130vh;
+    font-weight: bold;
 }
 
 footer {
@@ -77,6 +81,7 @@ footer {
     flex-direction: row;
     height: 6vw;
     background-color: #559CDA;
+    clear: both;
 }
 
 footer ul li {
@@ -87,4 +92,152 @@ footer ul li {
 
 #fortes {
     height: 5vw;
+}
+
+
+.container-1 {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#usuario {
+    float: left;
+    margin-left: 60px;
+    height: 150px;
+    margin-top: 58px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.post {
+    background-color: #E5E3E3;
+    border-radius: 15px;
+    padding: 20px;
+    width: 37%;
+}
+
+.post-author {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 1200px;
+}
+
+#coracao,
+#chat,
+#share {
+    margin-left: 19px;
+}
+
+#usuario-2 {
+    float: left;
+    margin-left: 60px;
+    height: 150px;
+    margin-top: 18px;
+}
+
+.feed-2,
+.feed-3,
+.feed-4 {
+    margin-top: -50px;
+}
+
+.container-1 {
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: -200px;
+}
+
+.titulo-2 {
+    position: absolute;
+    top: 200px;
+    margin-left: 1100px;
+}
+
+.funcionario-1 {
+    position: absolute;
+    top: 260px;
+    margin-left: 850px;
+}
+
+.primeiro-nome {
+    position: absolute;
+    top: 300px;
+    margin-left: 1200px;
+}
+
+.numero {
+    position: absolute;
+    top: 300px;
+    margin-left: 800px;
+}
+
+.funcionario-2 {
+    position: absolute;
+    top: 400px;
+    margin-left: 850px;
+}
+
+.segundo-nome {
+    position: absolute;
+    top: 450px;
+    margin-left: 1200px;
+}
+
+.numero-2 {
+    position: absolute;
+    top: 445px;
+    margin-left: 800px;
+}
+
+.funcionario-3 {
+    position: absolute;
+    top: 546px;
+    margin-left: 850px;
+}
+
+.numero-3 {
+    position: absolute;
+    top: 590px;
+    margin-left: 800px;
+}
+
+.terceiro-nome {
+    position: absolute;
+    top: 600px;
+    margin-left: 1200px;
+}
+
+.funcionario-4 {
+    position: absolute;
+    top: 700px;
+    margin-left: 850px;
+}
+
+.numero-4 {
+    position: absolute;
+    top: 740px;
+    margin-left: 800px;
+}
+
+.quarto-nome {
+    position: absolute;
+    top: 750px;
+    margin-left: 1200px;
+}
+
+.funcionario-1,
+.funcionario-2,
+.funcionario-3,
+.funcionario-4,
+#usuario,
+#usuario-2 {
+    border-radius: 100%;
 }
