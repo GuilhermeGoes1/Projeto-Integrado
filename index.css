@@ -70,7 +70,7 @@ a {
 }
 
 main {
-    height: 130vh;
+    height: 120vh;
     font-weight: bold;
 }
 
@@ -168,6 +168,7 @@ footer ul li {
 }
 
 .primeiro-nome {
+    font-size: 25px;
     position: absolute;
     top: 300px;
     margin-left: 1200px;
@@ -186,6 +187,7 @@ footer ul li {
 }
 
 .segundo-nome {
+    font-size: 25px;
     position: absolute;
     top: 450px;
     margin-left: 1200px;
@@ -210,6 +212,7 @@ footer ul li {
 }
 
 .terceiro-nome {
+    font-size: 25px;
     position: absolute;
     top: 600px;
     margin-left: 1200px;
@@ -228,6 +231,7 @@ footer ul li {
 }
 
 .quarto-nome {
+    font-size: 25px;
     position: absolute;
     top: 750px;
     margin-left: 1200px;
