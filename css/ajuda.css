@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 nav {
-    background-color: #559CDA;
+    background-color: #559cda;
     height: 4.65vw;
     display: flex;
     align-items: center;
@@ -15,13 +15,13 @@ nav {
 
 nav #ajuda {
     border-radius: 10vw;
-    background-color: #F7F7F7;
-    color: #559CDA;
+    background-color: #f7f7f7;
+    color: #559cda;
 }
 
 nav ul li {
     list-style: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: bold;
     font-size: 1.4vw;
     padding: 0.5vw 1vw 0.5vw 1vw;
@@ -30,9 +30,9 @@ nav ul li {
 }
 
 nav ul li:hover {
-    transition: .5s;
-    background-color: #F7F7F7;
-    color: #559CDA;
+    transition: 0.5s;
+    background-color: #f7f7f7;
+    color: #559cda;
 }
 
 nav #home {
@@ -67,8 +67,11 @@ a {
 }
 
 main {
-    height: 95vh;
-    background-color: #E9F2F1;
+    position: relative;
+    margin-top: 0vw;
+    height: 90vh;
+    background-color: #e9f2f1;
+    overflow-y: auto;
 }
 
 footer {
@@ -77,15 +80,51 @@ footer {
     justify-content: space-evenly;
     flex-direction: row;
     height: 6vw;
-    background-color: #559CDA;
+    background-color: #559cda;
 }
 
 footer ul li {
     list-style: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 1vw;
 }
 
 #fortes {
     height: 5vw;
+}
+
+.duvida-1 {
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 130px;
+}
+
+.titulo {
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 100px;
+}
+
+.texto-1 {
+    font-size: 25px;
+}
+
+.texto-2 {
+    font-size: 25px;
+}
+
+.texto-3 {
+    font-size: 25px;
+}
+
+.duvida-2 {
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 130px;
+}
+
+.duvida-3 {
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 130px;
 }
